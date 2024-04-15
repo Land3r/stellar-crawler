@@ -1,0 +1,22 @@
+{
+  "name": "stellar-crawler",
+  "description": "Stellar Crawler.",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "npx nodemon src/index.ts",
+    "build": "npx tsc -p .",
+    "start": "node ."
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
